@@ -646,3 +646,4 @@ Xunsearch (包含 SDK 在内) 是一个免费开源的全文搜索软件，在�
 13. [Wikipedia: Clustered_file_system](https://en.wikipedia.org/wiki/Clustered_file_system)
 14. [百度百科: SEO](http://baike.baidu.com/view/1047.htm)
 15. [Wikipedia: 搜索引擎优化](https://zh.wikipedia.org/wiki/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96)
+16. [1号店11.11：分布式搜索引擎的架构实践](http://www.infoq.com/cn/articles/yhd-11-11-distributed-search-engine-architecture)
