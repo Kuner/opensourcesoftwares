@@ -327,7 +327,7 @@ Xapian除了提供原生的C++编程接口之外，还提供了Perl，PHP，Pyth
 
 网络爬虫的工作流程如下：
 
-![](WebCrawlerArchitecture.png)
+![webcrawlerarchitecture](https://cloud.githubusercontent.com/assets/208154/11891777/a82e3368-a59c-11e5-950b-f2efff7a419f.png)
 
 ## 4.2 文本分词
 
@@ -465,15 +465,15 @@ Distributed file systems may aim for "transparency" in a number of aspects. That
 
 * 当单纯的对已有数据进行搜索时，Solr更快。
 
-![](search_fresh_index_while_idle.png)
+![search_fresh_index_while_idle](https://cloud.githubusercontent.com/assets/208154/11891739/6c2e035c-a59c-11e5-852a-6b6354281c42.png)
 
 * 当实时建立索引时, Solr会产生io阻塞，查询性能较差, Elasticsearch具有明显的优势。
 
-![](search_fresh_index_while_indexing.png)
+![search_fresh_index_while_indexing](https://cloud.githubusercontent.com/assets/208154/11891738/6c2c573c-a59c-11e5-95e3-f35ad213fcbe.png)
 
 * 随着数据量的增加，Solr的搜索效率会变得更低，而Elasticsearch却没有明显的变化。
 
-![](search_fresh_index_while_indexing2.png)
+![search_fresh_index_while_indexing2](https://cloud.githubusercontent.com/assets/208154/11891740/6c2e5942-a59c-11e5-95ad-ca3d9e6a5610.png)
 
 综上所述，Solr的架构不适合实时搜索的应用
 
@@ -572,7 +572,8 @@ Xunsearch (包含 SDK 在内) 是一个免费开源的全文搜索软件，在�
 >   
 > * 测试结果仅供参考;
 > 
-> ![测试结果](xunsoutestresult.jpg)
+> ![xunsoutestresult](https://cloud.githubusercontent.com/assets/208154/11891785/af7d4500-a59c-11e5-8717-9631b23184fc.jpg)
+
 
 ### 6.1.2 腾讯 - Hermes
 
@@ -611,7 +612,7 @@ Xunsearch (包含 SDK 在内) 是一个免费开源的全文搜索软件，在�
 
 #### 性能
 
-![](hermes-performance.png)
+![hermes-performance](https://cloud.githubusercontent.com/assets/208154/11891742/6c32a1be-a59c-11e5-8921-34eccf49d476.png)
 
 ### 6.1.3 一号店
 
@@ -640,6 +641,7 @@ Xunsearch (包含 SDK 在内) 是一个免费开源的全文搜索软件，在�
 9. [腾讯实时检索分析平台hermes介绍](http://jiezhu2007.iteye.com/blog/2166035)
 10. [利用Xapian构建自己的搜索引擎：Xapian简介](http://blog.csdn.net/visualcatsharp/article/details/4176083)
 11. [爬虫技术浅析](http://drops.wooyun.org/tips/3915)
+12. [如何自己写一个网络爬虫](http://coolshell.cn/articles/27.html)
 12. [Wikipedia: Web crawler](https://en.wikipedia.org/wiki/Web_crawler)
 13. [Wikipedia: Clustered_file_system](https://en.wikipedia.org/wiki/Clustered_file_system)
 14. [百度百科: SEO](http://baike.baidu.com/view/1047.htm)
